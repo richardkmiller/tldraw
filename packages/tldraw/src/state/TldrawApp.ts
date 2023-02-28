@@ -2004,7 +2004,7 @@ export class TldrawApp extends StateManager<TDSnapshot> {
       window.focus() // weird but necessary
     }
 
-    if (opts.includeFonts) {
+    if (true) {
       try {
         const { fonts } = await fetch(TldrawApp.assetSrc, { mode: 'no-cors' }).then((d) => d.json())
 
